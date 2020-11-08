@@ -36,13 +36,6 @@ public abstract class GuiAbstractDashboard extends GuiBase
 		super.onGuiClosed();
 	}
 
-	@Override
-	protected void closeScreen()
-	{
-		this.close();
-		super.closeScreen();
-	}
-
 	private void close()
 	{
 		this.panels.close();
